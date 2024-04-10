@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
     This will install Streamlit and other necessary libraries.
 
-### Running Locally
+### Running - Locally
 
 To run the app locally, navigate to the project directory and execute:
 
@@ -49,12 +49,30 @@ To run the app locally, navigate to the project directory and execute:
 python3 -m streamlit run model.py
 ```
 
-### Expected Output - Success
+#### Expected Output - Success
 
 ![response](img/response.png)
 
-### Expected Output - Error
+#### Expected Output - Error
 
 ![error](img/error.png)
 
 
+### Running - EC2
+
+Temporary running:
+
+```bash
+python3 -m streamlit run model.py
+```
+![run](img/ec2-run.png)
+
+Permanent running:
+
+```bash
+nohup python3 -m streamlit run model.py
+```
+
+#### Expected Output
+
+![ec2](img/ec2.png)
