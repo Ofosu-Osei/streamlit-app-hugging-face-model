@@ -1,9 +1,5 @@
-datasets==2.18.0
-python-dotenv==1.0.1
-requests==2.31.0
-streamlit==1.33.0
-streamlit-chat==0.1.1
-tensorflow==2.16.1
-tf_keras==2.16.0
-transformers==4.39.3
+streamlit
+tensorflow
+tf_keras
+transformers
 

@@ -46,7 +46,7 @@ pip install -r requirements.txt
 To run the app locally, navigate to the project directory and execute:
 
 ```bash
-python3 -m streamlit run app.py
+python3 -m streamlit run model.py
 ```
 
 ### Expected Output - Success
